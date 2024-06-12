@@ -1,8 +1,0 @@
-// Devuelve "Hola, Juan"
-
-function saludar(nombre) {
-    return `Hola, ${nombre}`;
-}
-
-module.exports.saludar=saludar
-
