@@ -1,9 +1,9 @@
-const saludo=require("./Saludos")
+const {holaMundo,saludar}=require("./Saludos.js")
 
 //console.log(saludo)
 
-console.log(saludo.saludar("Juan Camilo"))
+console.log(saludar("Juan Camilo"))
 
-console.log(saludo.holaMundo())
-console.log(saludo.holaMundo())
+console.log(holaMundo())
+//console.log(saludo.holaMundo())
 
