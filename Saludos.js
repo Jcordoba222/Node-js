@@ -1,20 +1,14 @@
 // Devuelve "Hola, Juan"
-
 function saludar(nombre) {
     return `Hola, ${nombre}`;
 }
 
 function holaMundo(){
-    return `Hola , camilo Como estas hoy`
+    return `Hola, camilo ¿Cómo estás hoy?`;
 }
 
-//module.exports.saludar=saludar
-//module.exports.holaMundo=holaMundo
-
-
-
+// Exporta las funciones `saludar` y `holaMundo` usando `module.exports`
 module.exports =  {
-    saludar:saludar,
-    holaMundo:holaMundo
+    saludar: saludar,
+    holaMundo: holaMundo
 }
-
