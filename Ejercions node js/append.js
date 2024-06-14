@@ -8,3 +8,10 @@ fs.appendFile('append.html', '<p>Hola vienvenido</p>', (err) => {
     } 
     console.log('Archivo actualizado correctamente.');
 });
+
+fs.appendFileSync('append.html', '<p>Hola vienvenido</p>', (err) => {
+    if (err) {
+        throw err
+    } 
+    console.log('Archivo actualizado correctamente.');
+});
